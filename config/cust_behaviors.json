@@ -1,0 +1,90 @@
+[
+	{
+		"code": "&",
+		"name": "&",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_lshift",
+		"name": "&td_lshift",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rshift",
+		"name": "&td_rshift",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_ralt",
+		"name": "&td_ralt",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_lefthome",
+		"name": "&td_lefthome",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_righthome",
+		"name": "&td_righthome",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_uppgup",
+		"name": "&td_uppgup",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_downpgdn",
+		"name": "&td_downpgdn",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rightend",
+		"name": "&td_rightend",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rctrl",
+		"name": "&td_rctrl",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rctrlb",
+		"name": "&td_rctrlb",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]

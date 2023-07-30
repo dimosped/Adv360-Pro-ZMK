@@ -1,0 +1,31 @@
+td_lshift: tap_dance_lshift {
+    compatible = "zmk,behavior-tap-dance";
+    label = "td_lshift";
+    #binding-cells = <0>;
+    tapping-term-ms = <250>;
+    bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+};
+
+td_rshift: tap_dance_rshift {
+    compatible = "zmk,behavior-tap-dance";
+    label = "td_rshift";
+    #binding-cells = <0>;
+    tapping-term-ms = <250>;
+    bindings = <&kp RIGHT_SHIFT>, <&kp CAPS>;
+};
+
+td_rctrl: tap_dance_rctrl{
+    compatible = "zmk,behavior-tap-dance";
+    label = "td_rctrl";
+    #binding-cells = <0>;
+    tapping-term-ms = <180>;
+    bindings = <&kp RCTRL>, <&to 2>;
+};
+
+td_rctrlb: tap_dance_rctrlb {
+    compatible = "zmk,behavior-tap-dance";
+    label = "td_rctrlb";
+    #binding-cells = <0>;
+    tapping-term-ms = <180>;
+    bindings = <&kp RCTRL>, <&to 0>;
+};
