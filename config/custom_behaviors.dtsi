@@ -26,30 +26,30 @@ td_lefthome: tap_dance_lefthome {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_LEFTHOME";
     #binding-cells = <0>;
-    tapping-term-ms = <150>;
-    bindings = <&kp LEFT>, <&kp HOME>;
+    tapping-term-ms = <180>;
+    bindings = <&kp LEFT>, <&mt HOME LEFT>;
 };
 
 td_rightend: tap_dance_rightend {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_RIGHTEND";
     #binding-cells = <0>;
-    tapping-term-ms = <150>;
-    bindings = <&kp RIGHT>, <&kp END>;
+    tapping-term-ms = <180>;
+    bindings = <&kp RIGHT>, <&mt END RIGHT>;
 };
 
 td_uppgup: tap_dance_uppgup {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_UPPGUP";
     #binding-cells = <0>;
-    tapping-term-ms = <150>;
-    bindings = <&kp UP>, <&kp PG_UP>;
+    tapping-term-ms = <180>;
+    bindings = <&kp UP>, <&kp PG_UP UP>;
 };
 
 td_downpgdn: tap_dance_downpgdn {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_DOWNPGDN";
     #binding-cells = <0>;
-    tapping-term-ms = <150>;
-    bindings = <&kp DOWN>, <&kp PG_DN>;
+    tapping-term-ms = <180>;
+    bindings = <&kp DOWN>, <&kp PG_DN DOWN>;
 };
