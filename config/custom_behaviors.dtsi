@@ -26,23 +26,23 @@ td_lefthome: tap_dance_lefthome {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_LEFTHOME";
     #binding-cells = <0>;
-    tapping-term-ms = <140>;
+    tapping-term-ms = <150>;
     bindings = <&kp LEFT>, <&kp HOME>;
 };
 
-td_righthome: tap_dance_righthome {
+td_rightend: tap_dance_rightend {
     compatible = "zmk,behavior-tap-dance";
-    label = "TAP_DANCE_RIGHTHOME";
+    label = "TAP_DANCE_RIGHTEND";
     #binding-cells = <0>;
-    tapping-term-ms = <140>;
-    bindings = <&kp RIGHT>, <&kp HOME>;
+    tapping-term-ms = <150>;
+    bindings = <&kp RIGHT>, <&kp END>;
 };
 
 td_uppgup: tap_dance_uppgup {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_UPPGUP";
     #binding-cells = <0>;
-    tapping-term-ms = <140>;
+    tapping-term-ms = <150>;
     bindings = <&kp UP>, <&kp PG_UP>;
 };
 
@@ -50,6 +50,6 @@ td_downpgdn: tap_dance_downpgdn {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_DOWNPGDN";
     #binding-cells = <0>;
-    tapping-term-ms = <140>;
+    tapping-term-ms = <150>;
     bindings = <&kp DOWN>, <&kp PG_DN>;
 };
