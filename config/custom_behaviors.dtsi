@@ -46,10 +46,10 @@ td_uppgup: tap_dance_uppgup {
     bindings = <&kp UP>, <&kp PG_UP>;
 };
 
-td_downpgdown: tap_dance_downpgdown {
+td_downpgdn: tap_dance_downpgdn {
     compatible = "zmk,behavior-tap-dance";
-    label = "TAP_DANCE_DOWNPGDOWN";
+    label = "TAP_DANCE_DOWNPGDN";
     #binding-cells = <0>;
     tapping-term-ms = <150>;
-    bindings = <&kp DOWN>, <&kp PG_DOWN>;
+    bindings = <&kp DOWN>, <&kp PG_DN>;
 };
