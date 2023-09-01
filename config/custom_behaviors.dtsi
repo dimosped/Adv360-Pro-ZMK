@@ -2,7 +2,7 @@ td_lshift: tap_dance_lshift {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_LSHIFT";
     #binding-cells = <0>;
-    tapping-term-ms = <200>;
+    tapping-term-ms = <250>;
     bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 };
 
@@ -10,7 +10,7 @@ td_rshift: tap_dance_rshift {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_RSHIFT";
     #binding-cells = <0>;
-    tapping-term-ms = <200>;
+    tapping-term-ms = <250>;
     bindings = <&kp RIGHT_SHIFT>, <&kp CAPS>;
 };
 
@@ -26,7 +26,7 @@ td_lefthome: tap_dance_lefthome {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_LEFTHOME";
     #binding-cells = <0>;
-    tapping-term-ms = <120>;
+    tapping-term-ms = <140>;
     bindings = <&kp LEFT>, <&kp HOME>;
 };
 
@@ -34,7 +34,7 @@ td_righthome: tap_dance_righthome {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_RIGHTHOME";
     #binding-cells = <0>;
-    tapping-term-ms = <120>;
+    tapping-term-ms = <140>;
     bindings = <&kp RIGHT>, <&kp HOME>;
 };
 
@@ -42,7 +42,7 @@ td_uppgup: tap_dance_uppgup {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_UPPGUP";
     #binding-cells = <0>;
-    tapping-term-ms = <120>;
+    tapping-term-ms = <140>;
     bindings = <&kp UP>, <&kp PG_UP>;
 };
 
@@ -50,6 +50,6 @@ td_downpgdn: tap_dance_downpgdn {
     compatible = "zmk,behavior-tap-dance";
     label = "TAP_DANCE_DOWNPGDN";
     #binding-cells = <0>;
-    tapping-term-ms = <120>;
+    tapping-term-ms = <140>;
     bindings = <&kp DOWN>, <&kp PG_DN>;
 };
