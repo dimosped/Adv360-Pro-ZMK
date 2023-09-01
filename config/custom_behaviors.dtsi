@@ -43,7 +43,7 @@ td_uppgup: tap_dance_uppgup {
     label = "TAP_DANCE_UPPGUP";
     #binding-cells = <0>;
     tapping-term-ms = <180>;
-    bindings = <&kp UP>, <&kp PG_UP UP>;
+    bindings = <&kp UP>, <&mt PG_UP UP>;
 };
 
 td_downpgdn: tap_dance_downpgdn {
@@ -51,5 +51,5 @@ td_downpgdn: tap_dance_downpgdn {
     label = "TAP_DANCE_DOWNPGDN";
     #binding-cells = <0>;
     tapping-term-ms = <180>;
-    bindings = <&kp DOWN>, <&kp PG_DN DOWN>;
+    bindings = <&kp DOWN>, <&mt PG_DN DOWN>;
 };
