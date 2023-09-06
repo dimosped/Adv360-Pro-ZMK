@@ -18,7 +18,7 @@ td_rctrl: tap_dance_rctrl{
     compatible = "zmk,behavior-tap-dance";
     label = "td_rctrl";
     #binding-cells = <0>;
-    tapping-term-ms = <200>;
+    tapping-term-ms = <160>;
     bindings = <&kp RCTRL>, <&to 2>;
 };
 
@@ -26,6 +26,6 @@ td_rctrlb: tap_dance_rctrlb {
     compatible = "zmk,behavior-tap-dance";
     label = "td_rctrlb";
     #binding-cells = <0>;
-    tapping-term-ms = <200>;
+    tapping-term-ms = <160>;
     bindings = <&kp RCTRL>, <&to 0>;
 };
