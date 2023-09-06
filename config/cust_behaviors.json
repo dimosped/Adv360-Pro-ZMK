@@ -86,5 +86,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&td_rctrl",
+		"name": "&td_rctrl",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rctrlb",
+		"name": "&td_rctrlb",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
