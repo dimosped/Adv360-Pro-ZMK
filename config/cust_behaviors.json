@@ -70,5 +70,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&td_rctl",
+		"name": "&td_rctl",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rctlb",
+		"name": "&td_rctlb",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
