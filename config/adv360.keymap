@@ -18,6 +18,18 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+&mt {
+    tapping-term-ms = <185>;
+    quick-tap-ms = <155>;
+    global-quick-tap;
+};
+
+&lt {
+    tapping-term-ms = <185>;
+    quick-tap-ms = <155>;
+    global-quick-tap;
+};
+
 / {
   behaviors {
     #include "macros.dtsi"
