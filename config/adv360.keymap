@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3          &kp F4     &kp F5  &kp F6            &tog 1                                                              &mo 3    &kp F7     &kp F8     &kp F9    &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans          &trans     &trans  &trans            &trans                                                             &trans     &none     &trans     &kp UP     &trans   &trans   &trans
- &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &trans            &trans  &trans  &trans                          &to 0  &td_rctrlb  &trans  &kp HOME   &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &trans
- &trans  &trans  &trans          &trans     &trans  &trans                            &trans                         &trans                         &none     &trans     &trans     &trans    &none   &trans
- &trans  &trans  &trans        &kp HOME    &kp END                    &trans  &trans  &trans                  &mt RCTRL END      &trans  &trans            &kp PG_UP  &kp PG_DN     &trans   &trans    &to 0
+ &kp F1  &kp F2  &kp F3          &kp F4     &kp F5  &kp F6            &tog 1                                                              &mo 3    &kp F7         &kp F8        &kp F9         &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans          &trans     &trans  &trans            &trans                                                             &trans     &none         &trans        &kp UP          &trans   &trans   &trans
+ &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &trans            &trans  &trans  &trans                          &to 0  &td_rctrlb  &trans  &kp HOME       &kp LEFT      &kp DOWN       &kp RIGHT  &kp END   &trans
+ &trans  &trans  &trans          &trans     &trans  &trans                            &trans                         &trans                         &none  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_PASTE    &none   &trans
+ &trans  &trans  &trans        &kp HOME    &kp END                    &trans  &trans  &trans                  &mt RCTRL END      &trans  &trans                &kp PG_UP     &kp PG_DN          &trans   &trans    &to 0
             >;
         };
 
