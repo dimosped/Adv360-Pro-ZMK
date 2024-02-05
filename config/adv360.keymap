@@ -25,7 +25,7 @@
 };
 
 &lt {
-    tapping-term-ms = <185>;
+    tapping-term-ms = <165>;
     quick-tap-ms = <155>;
     global-quick-tap;
 };
