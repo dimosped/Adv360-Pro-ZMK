@@ -19,14 +19,14 @@
 #include <dt-bindings/zmk/backlight.h>
 
 &mt {
-    tapping-term-ms = <200>;
-    quick-tap-ms = <155>;
+    tapping-term-ms = <155>;
+    quick-tap-ms = <140>;
     global-quick-tap;
 };
 
 &lt {
-    tapping-term-ms = <125>;
-    quick-tap-ms = <155>;
+    tapping-term-ms = <155>;
+    quick-tap-ms = <140>;
     global-quick-tap;
 };
 
@@ -40,7 +40,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
-        flavor = "tap-preferred";
+        flavor = "hold-preferred";
         bindings = <&kp>, <&kp>;
     };
   };
